@@ -1,0 +1,32 @@
+<meta charset="utf-8"/>
+<meta name="author" content="" />
+<meta name="description" content="{% t page.description %}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="ZumCoin, CryptoCurrency, Cryptonote, Cryptonight, Cryptonight-lite, Coin, Crypto, , Bebop">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% t page.title %}</title>
+
+{% include favicons.html %}
+<!-- Open Graph data -->
+<meta property="og:site_name" content="ZumCoin"/>
+<meta property="og:title" content="{% t page.title %}"/>
+<meta property="og:description" content="{% t page.description %}"/>
+<meta property="og:image" content="{{ site.url }}/images/zumcoin_opengraph_colorbg.jpg"/>
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@_zumcoin" />
+<meta name="twitter:title" content="{% t page.title %}"/>
+<meta name="twitter:description" content="{% t page.description %}" />
+<meta name="twitter:image" content="{{ site.url }}/images/twitter-summary-card.jpg" />
+
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+
+{% for lang in site.languages %}
+  {% if site.default_lang == lang %}
+    <link rel="alternate" href="{{ site.url }}{{ site.baseurl_root }}{{ page.url }}" hreflang="{{lang}}">
+    <link rel="alternate" href="{{ site.url }}{{ site.baseurl_root }}{{ page.url }}" hreflang="x-default">
+  {% else %}
+    <link rel="alternate" href="{{ site.url }}/{{ site.baseurl_root }}{{ lang }}{{ page.url }}" hreflang="{{lang}}">
+  {% endif %}
+{% endfor %}

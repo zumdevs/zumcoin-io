@@ -1,0 +1,12 @@
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="{% t navbar.resources %}">
+    {% t navbar.resources %}
+    <span class="caret caret-right-edge"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a href="http://wiki.zumcoin.org" title="{% t navbar.resources_wiki %}">{% t navbar.resources_wiki %}</a></li>
+    <li><a href="https://medium.com/@zumcoin" title="{% t navbar.resources_blog %}">{% t navbar.resources_blog %}</a></li>
+    <li><a href="https://github.com/zumcoin/zumcoin-docs/wiki/Resources" title="{% t navbar.resources_dev_resources %}">{% t navbar.resources_dev_resources %}</a></li>
+    <li><a href="{{ '/brand/' | prepend: site.baseurl }}" title="{% t navbar.resources_brand %}">{% t navbar.resources_brand %}</a></li>
+  </ul>
+</li>

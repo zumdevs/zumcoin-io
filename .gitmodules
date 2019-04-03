@@ -1,0 +1,4 @@
+[submodule "paper-zum"]
+	path = paper-zum
+	url = https://github.com/zumcoin/paper-zum.git
+  ignore = dirty
