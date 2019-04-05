@@ -16,8 +16,8 @@ gems:
 
 
 # Localization config
-languages: ["en", "af", "nl", "zh", "de", "es", "fr", "it", "hu", "kr", "pt-br", "ru", "cz",]
-# languages: ["en", "af", "pt-br", "ru", "zh", "de", "es", "fr", "it", "hu", "cz", "dev"] # enable during development to see text keys at /dev/
+languages: ["en",]
+# languages: ["en",] # enable during development to see text keys at /dev/
 
 language_names:
   at:
@@ -69,4 +69,4 @@ language_names:
     short: dev
     full: Development
 
-exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts", "paper-zum"]
+exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts"]
