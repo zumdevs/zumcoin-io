@@ -17,7 +17,9 @@ GEM
     ethon (0.11.0)
       ffi (>= 1.3.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     ffi (1.9.23)
+    ffi (1.9.23-x64-mingw32)
     forwardable-extended (2.6.0)
     html-proofer (3.8.0)
       activesupport (>= 4.2, < 6.0)
@@ -64,6 +66,8 @@ GEM
     minitest (5.11.3)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.2-x64-mingw32)
+      mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
@@ -86,10 +90,14 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2019.1)
+      tzinfo (>= 1.0.0)
+    wdm (0.1.1)
     yell (2.0.7)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   html-proofer
@@ -99,9 +107,10 @@ DEPENDENCIES
   rake
   retries
   tzinfo-data
+  wdm (~> 0.1.0)
 
 RUBY VERSION
    ruby 2.3.4p301
 
 BUNDLED WITH
-   1.15.4
+   2.0.1

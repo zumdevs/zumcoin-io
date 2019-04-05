@@ -4,12 +4,4 @@
     <loc>https://zumcoin.org/</loc>
     <changefreq>weekly</changefreq>
   </url>
-  <url>
-    <loc>https://zumcoin.org/brand/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://zumcoin.org/wallet/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
 </urlset>

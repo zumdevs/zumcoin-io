@@ -146,6 +146,16 @@ button:hover,
 .background1 { background-color: #212121; }
 .background2 { background-color: #1d1d1d; }
 
+.zumMap {
+
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(0, 0%, 4%);
+}
+
 /* =Margin + Padding
 -------------------------------------------------------------- */
 .pt10 { padding-top:10px !important; }
@@ -909,7 +919,7 @@ ul.social-buttons li a:active {
 .navbar-default {
 	font-family: "Montserrat",sans-serif;
 	font-size: 12px;
-	background: rgb(47, 47, 47) none repeat scroll 0% 0%;
+	background: #101010ee none repeat scroll 0% 0%;
 	text-transform: uppercase;
 }
 
@@ -989,7 +999,7 @@ ul.social-buttons li a:active {
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #333;
+    border-color: rgba(0, 0, 0, 0.808);
     max-height: initial;
 }
 
@@ -1305,6 +1315,7 @@ ul.social-buttons li a:active {
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
+    box-shadow: 0 1px 4px 0 rgb(46, 168, 226);
 }
 
 /* =About
