@@ -1,7 +1,8 @@
 d3.json('./data/peers.json', function(nodes) {
 
     nodes.forEach(function(node) {
-        node.color = 'hsla(132, 68%, 37%, 0.7)'
+        node.color = 'hsla(231, 18%, 83%, 0.2)'
+
     })
 
     var mymap = L.map("zumMap", {
@@ -24,7 +25,7 @@ d3.json('./data/peers.json', function(nodes) {
     
         L.geoJSON(c, {
             style: {
-                color: "hsla(132, 68%, 37%, 0.6)",
+                color: "hsla(231, 18%, 83%, 0.2)",
                 opacity: .5,
                 weight: 1,
                 fillColor: "#00000",

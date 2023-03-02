@@ -1,11 +1,12 @@
 # Common
 contact:
-  interested: Let's Build the Future Together!
-  need_help: If you are interested in our poject and would like to contribute your skillset, we are happy to get you on board.
+  interested: Let's Shape the Future Together!
+  need_help: If you are interested in our poject and would like to contribute your skill set, we are happy to get you on board.
+  join_us: Join us Today!
   discord: Join us on Discord
   github: Join us on GitHub
   thank_you: Thank You!
-  scroll_up: Up
+  scroll_up: Scroll Up
 
 navbar:
   home: Home
@@ -15,11 +16,11 @@ navbar:
   specs: Specs
   roadmap: Roadmap
   support: Support
-  # toggle_navigation: Toggle Navigation
-  # resources: Resources
-  # resources_wiki: ZumCoin Wiki
-  # resources_blog: Developer Blog
-  # resources_dev_resources: Developer Resources
+  toggle_navigation: Toggle Navigation
+  resources: Resources
+  resources_wiki: ZumCoin Wiki
+  resources_blog: Developer Blog
+  resources_dev_resources: Developer Resources
 
 
 # Pages
@@ -27,15 +28,16 @@ navbar:
 # https://zumcoin.org/
 index_page:
   meta:
-    description: ZumCoin is a Simplified Private Digital Currency. The first ever <strong>Random Block Reward</strong> cryptocurrency designed for the global adoption. 
+    description: ZumCoin is a Simplified Private Digital Currency. The <strong>Random Block Reward </strong> cryptocurrency designed for the global adoption. 
 
   # banner section
   banner_is_fast: ZumCoin is Unique
   banner_is_easy: ZumCoin is Private
   banner_is_safe: ZumCoin is for Mass Adoption
-  banner_one_liner: ZumCoin is a Simplified Private Digital Currency. <br> The first ever <strong>Random Block Reward</strong>cryptocurrency designed for the global adoption.
+  banner_one_liner: ZumCoin is a Simplified Private Digital Currency. <br> The <strong>Random Block Reward</strong> cryptocurrency designed for the global adoption.
   banner_download: Download
-  banner_builds: <strong>Latest Wallet Releases for Windows, MacOS, and Linux. </strong>If you prefer to build from the <strong>source code</strong>, please click <a href="https://github.com/zumcoin/zumcoin/">here</a>. Also please join us <a href="http://discord.zumcoin.org">here</a> as we're always looking for people like you to join our project.
+  banner_builds: <strong>Latest Wallet Releases for Windows, MacOS, and Linux. </strong>
+  banner_builds_msg: If you prefer to build from the <strong>source code</strong>, please click <a href="https://github.com/zumcoin/zumcoin/">here</a>. Also please join us <a href="http://discord.zumcoin.org">here</a> as we're always looking for people like you to join our project.
 
   # download section
   download_select_system: Download For Your Operating System
@@ -45,12 +47,14 @@ index_page:
 
   # fun facts section
   fun_facts_title: Zum Facts
-  fun_facts_1: ZumCoin is the first Random Block Reward cryptocurrency.
-  fun_facts_2: ZumCoin is a Simplified Private Digital Currency.
-  fun_facts_3: ZumCoin is built by the people for the people.
+  fun_facts_1: ZumCoin has a unique Random Block Reward system.
+  fun_facts_2: ZumCoin is Simplified Cryptocurrency for mass adoption.
+  fun_facts_3: ZumCoin offers great incentives for Developers to build upon its technology.
+  fun_facts_4: You can earn ZUM coins by running a node.
+  fun_facts_5: ZumCoin is built by the people for the people.
 
   # why section
-  why_title: Why ZumCoin?
+  why_title: ZumCoin Features
   why_1_title: Faster Transactions
   why_1: ZumCoin produces blocks every 2 minutes, as opposed to every 10 minutes. Transactions are super fast on ZumCoin than on Bitcoin.
   why_2_title: Privacy-Focused
@@ -61,7 +65,7 @@ index_page:
   why_4: ZumCoin implements the Random Block Reward systems in addition to the Egalitarian approach of CryptoNote to ensure a progressive and Democratic digital ecosystem.
   why_5_title: Open-Source Project
   why_5: ZumCoin is an open-source blockchain project being developed by the efforts contributed by its community. It offers great bounties for everyone to get involved and earn ZUM coins. Checkout the current bounties available <a href="http://bounties.zumcoin.org">here</a>.
-  why_6_title: Support
+  why_6_title: Decentralized Ecosystem
   why_6: ZumCoin is a peer-to-peer decentralized ecosystem designed to eliminate central control and the need for the third-party to validation transactions.
 
 
@@ -74,19 +78,31 @@ index_page:
 
   # roadmap section
   roadmap_title: ZumCoin Roadmap
+ 
   roadmap_1: Public Launch
-  roadmap_2: ZumCoin is scheduled to be launched on <strong>April 15th, 2019</strong>.
+  roadmap_2: ZumCoin is scheduled to be launched on <strong>August 11th, 2019</strong>.
   roadmap_3: " "
-  roadmap_4: Airdrop Event for B2N Community
-  roadmap_5: bitcoin2network Community members will be airdroped ZUM Coins on or before <strong>June 30th, 2019</strong>. Precise detial of airdrop will be shared at a later time.
-  roadmap_6: Exchange Partnerships
-  roadmap_7: ZumCoin will be publicly traded by Q3 2019. Our goal is to get our project listed on one of the Top 20 exchanges.
-  roadmap_8: Q1 2020
+ 
+  roadmap_4: B2N to ZUM SWAP Begins
+  roadmap_5: Distribution of ZUM Coins for the SWAP participants of bitcoin2network (B2N coin) will start on <strong>Sep 1st, 2019</strong> and is expected to be completed on or before <strong>Sep 15th, 2019</strong>.
+  
+
+  roadmap_6: Major Exchange Partnership
+  roadmap_7: Our goal is to get our project listed on one of the Top 20 crypto exchanges before the end of Q1 2020.
+
+  roadmap_16: Q1 2020
+  roadmap_14: ZumCoin Payment Integration Services
+  roadmap_15: ZumPay Beta version is scheduled to be Released by the end of Q1 2020. More detail will be provided soon.
+
+  roadmap_8: Q2 2020
+  roadmap_12: First Major Merchant Partnership
+  roadmap_13: Our goal is to have our first major merchant partnership by Q2 2020.
+  
+  roadmap_11: TBA Soon
   roadmap_9: Android Mobile Wallet
   roadmap_10: Android Mobile wallet is currently under development and is scheduled to be release by Q3 2019.
-  roadmap_11: TBA Soon
-  roadmap_12: First Major Merchant Partnership
-  roadmap_13: Our goal is to have our first major merchant partnership by Q4 2019.
-  roadmap_14: ZumCoin Payment Integration Services
-  roadmap_15: ZumPay Beta version is scheduled to be Released by the end of Q4 2019. More detail will be provided soon.
-  roadmap_16: Q4 2019
+
+  
+  
+  
+

@@ -68,7 +68,7 @@ function Flight(a, b) {
         this.clipPath_rect = this.clipPath.append("rect").attr("x", f[0]).attr("y", f[1]).attr("width", f[2]).attr("height", f[3]),
         this.group_road = this.group.append("g")
         this.group_road.attr("clip-path", "url(#aaa)"),
-        this.road = this.group_road.append("path").datum(this.road_points).attr("stroke", this.roadColor).attr("stroke-width", 1.5).attr("stroke-dasharray", "10 5").attr("fill", "none").attr("d", d3.line().curve(d3.curveBundle.beta(.5))),
+        this.road = this.group_road.append("path").datum(this.road_points).attr("stroke", this.roadColor).attr("stroke-width", 1.2).attr("stroke-linecap", "10 5").attr("fill", "none").attr("d", d3.line().curve(d3.curveBundle.beta(.5))),
         this.bp_circle = this.group.append("circle").attr("fill", this.beginColor),
         this.ep_circle = this.group.append("circle").attr("fill", this.endColor),
         this.load_plane()
